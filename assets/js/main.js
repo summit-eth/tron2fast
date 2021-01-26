@@ -283,8 +283,8 @@ $(function ($) {
 
     var timer = setInterval(function() {
 
-        if(new Date().getTime() < 1611684000000) {
-            $("#countdown").html(countdown(1611684000000).toString());
+        if(new Date().getTime() < 1611720000000) {
+            $("#countdown").html(countdown(1611720000000).toString());
             //$("#contract_counter").hide();
             $("#invest").addClass("unavailable");
         } else {
