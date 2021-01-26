@@ -904,9 +904,7 @@ select:focus {
 
 .hero-area {
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-moz-gradient(to bottom, #000, #841910);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #000, #841910);
+  background: radial-gradient(#9a1b12, #000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 165px 0px 249px;
 }

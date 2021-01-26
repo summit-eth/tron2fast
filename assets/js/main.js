@@ -283,13 +283,13 @@ $(function ($) {
 
     var timer = setInterval(function() {
 
-        if(new Date().getTime() < 1611644400000) {
-            $("#countdown").html(countdown(1611644400000).toString());
-            $("#contract_counter").hide();
+        if(new Date().getTime() < 1611684000000) {
+            $("#countdown").html(countdown(1611684000000).toString());
+            //$("#contract_counter").hide();
             $("#invest").addClass("unavailable");
         } else {
             clearInterval(timer);
-            $("#contract_counter").show();
+            //$("#contract_counter").show();
             $("#countdown").html("Tron Blockchain Technology");
             $("#invest").removeClass("unavailable");
         }

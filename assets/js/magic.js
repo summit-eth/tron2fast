@@ -1,4 +1,4 @@
-var CONTRACT_ADDRESS = "TToNj6CTpCo2wz9dDZsxYxM8NhRgKMVDQp";
+var CONTRACT_ADDRESS = "TAVjHs6CHSJUS5GyUgJbrBjE6uBxRjJZWe";
 window.troni = {};
 var DateHelper = {
   time_ago_in_words_with_parsing: function (from) {
